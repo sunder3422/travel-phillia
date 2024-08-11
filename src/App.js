@@ -6,6 +6,7 @@ import Topdest from './seccongpage/Topdest';
 import Whyus from './thirdpage/Whyus';
 import Booking from './fourthpage/Booking';
 import Service from './service/service';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <Service/>
      <Booking/>
      <Whyus/>
+     <Footer/>
     </div>
   );
 }
