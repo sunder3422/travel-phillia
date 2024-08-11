@@ -1,0 +1,93 @@
+.home-page{
+    height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.home-page-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+.home-page-heading h1{
+    font-size: 3em;
+}
+.homepage-search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.mainsearchbar {
+    display: flex;
+    width: 60%;
+    background-color: white;
+    height: 60px;
+    justify-content: flex-start;
+    padding: 5px;
+    border-radius: 34px;
+}
+.inputbox-div{
+    width:70%;
+}
+.destination{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 2rem;
+    padding-left: 10px;
+    
+}
+.destination:focus{
+    outline:none;
+}
+.search {
+    background-color: #e28712;
+    color: white;
+    width: 30%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+/* .destination,.day,.month,.year{
+    width:10%;
+    background-color: white;
+    color:black;
+    border:5px;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    height:30px;
+}
+
+.destination{
+    width: 15%;
+}
+.search{
+    background-color: rgb(181, 109, 13);
+    color:white;
+    padding:25px;
+    width:120px;
+    border-radius: 10px;
+} */
+.homepage-reach{
+    position:absolute;
+    bottom:0;
+    display: flex;
+    background-color: white;
+    color:black;
+    width:70%;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.reach{
+    margin:5px;
+}

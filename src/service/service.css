@@ -1,0 +1,44 @@
+.service-main{
+margin:100px auto;
+width: 80%;
+}
+.service-heading{
+    width:100%;
+}
+.sub-service-heading{
+    color: grey;
+}
+
+.service-box{
+    display: flex;
+}
+.service-box-outer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width:250px;
+    box-shadow: 0px 0px 5px 0px rgb(170, 170, 170);
+    flex-direction: column;
+    padding:10px;
+    border-radius: 10px;
+}
+.logobox-image{
+    /* position: absolute; */
+    width:80px;
+    height: 80px;
+    margin:auto;
+}
+.logobox img{
+    width: 100%;
+    padding:10px;
+}
+.service-about{
+    margin:10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+}
+.service-box-outer{
+    margin:10px;
+}
